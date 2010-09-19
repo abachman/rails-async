@@ -1,7 +1,7 @@
 require 'rails'
 require 'async'
 
-puts "ENGINE UP"
+# puts "ENGINE UP"
 
 module Async
   class Engine < Rails::Engine

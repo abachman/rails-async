@@ -2,7 +2,7 @@ puts "MODEL"
 class AsyncCache
   def self.read(tag)
     @content = nil
-    status = Timeout.timeout(2) do 
+    status = Timeout.timeout(5) do 
       until File.exists?(path(tag))
         sleep 0.2
       end

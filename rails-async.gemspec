@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["Adam Bachman"]
-  s.date = %q{2010-09-18}
+  s.date = %q{2010-09-19}
   s.description = %q{Don't wait for your pages to render.}
   s.email = %q{adam.bachman@gmail.com}
   s.extra_rdoc_files = [
@@ -23,6 +23,13 @@ Gem::Specification.new do |s|
      "README.rdoc",
      "Rakefile",
      "VERSION",
+     "app/controllers/async_controller.rb",
+     "app/helpers/async_helper.rb",
+     "app/models/async_cache.rb",
+     "config/routes.rb",
+     "lib/async.rb",
+     "lib/async/engine.rb",
+     "rails-async.gemspec",
      "test/helper.rb",
      "test/test_async-rails.rb"
   ]

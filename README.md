@@ -14,7 +14,11 @@ Or add it to your gemfile:
 
 ## Setup
 
+Add the helper method to you application_controller:
 
+  helper :async
+
+That's it.
 
 ## Use
 
@@ -44,4 +48,4 @@ Fast page:
       <% end %>
     </ul>
 
-##
+Async worries about responding, you worry about why your code is so slow.

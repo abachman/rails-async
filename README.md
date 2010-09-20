@@ -1,6 +1,9 @@
-This is Alpha, naive, itch scratching bozo code. 
+This is Alpha, naive, itch scratching bozo code. I've reinvented Rails
+fragment caching, poorly, because I can.
 
-Good luck.
+Don't reinvent the wheel. Always reinvent the wheel.
+
+Ponder this, good luck.
 
 ## Install
 
@@ -16,7 +19,7 @@ Or add it to your gemfile:
 
 Add the helper method to you application_controller:
 
-  helper :async
+    helper :async
 
 That's it.
 

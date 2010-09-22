@@ -2,6 +2,7 @@ puts "HELPER"
 module AsyncHelper
   def asynchronously
     id = Time.new.to_i
+    id = id.to_s + rand(10000)
 
     # insert javascript callback
     safe_concat %{

@@ -2,11 +2,6 @@ PATH
   remote: /home/adam/projects/rails-async
   specs:
     rails-async (0.1.1)
-      minitest
-      rails (= 3.0.0)
-      rails-async
-      redgreen
-      sqlite3-ruby
 
 GEM
   remote: http://rubygems.org/

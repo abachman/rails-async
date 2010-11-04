@@ -1,0 +1,8 @@
+source 'http://rubygems.org'
+
+gem 'rails', '3.0.0'
+gem 'rails-async', :require => 'async', :path => '/home/adam/projects/rails-async'
+gem 'sqlite3-ruby', :require => 'sqlite3'
+gem 'minitest'
+gem 'redgreen'
+

@@ -5,6 +5,5 @@ require 'async'
 
 module Async
   class Engine < Rails::Engine
-    engine_name :async
   end
 end

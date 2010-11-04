@@ -1,10 +1,13 @@
-require 'rubygems'
-require 'test/unit'
-require 'shoulda'
+ENV["RAILS_ENV"] = "test"
+require File.expand_path(File.dirname(__FILE__) +
+                         "/rails_root/config/environment")
+require 'rails/test_help'
 
-$LOAD_PATH.unshift(File.join(File.dirname(__FILE__), '..', 'lib'))
-$LOAD_PATH.unshift(File.dirname(__FILE__))
-require 'async-rails'
-
-class Test::Unit::TestCase
+require 'minitest/spec'
+begin
+  require 'redgreen'
+rescue LoadError
 end
+
+$: << File.expand_path(File.dirname(__FILE__) + '/..')
+require 'async'

@@ -1,0 +1,10 @@
+<h1>Accounts</h1>
+<ul>
+  <% asynchronously do %>
+    <% sleep 3.8 %>
+    <% @accounts.each do |account| %>
+      <%= render 'account', :account => account %>
+    <% end %>
+  <% end %>
+</ul>
+
